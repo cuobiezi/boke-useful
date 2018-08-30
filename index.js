@@ -3,18 +3,14 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports.getCookies = exports.query = undefined;
 
 var _index = require('./lib/index');
 
-Object.defineProperty(exports, 'query', {
-  enumerable: true,
-  get: function get() {
-    return _index.query;
-  }
-});
-Object.defineProperty(exports, 'getCookies', {
-  enumerable: true,
-  get: function get() {
-    return _index.getCookies;
-  }
-});
+exports.query = _index.query;
+exports.getCookies = _index.getCookies; /*
+                                         * @Author: cuobiezi 
+                                         * @Date: 2018-08-30 11:12:34 
+                                         * @Last Modified by: cuobiezi
+                                         * @Last Modified time: 2018-08-30 23:09:58
+                                         */
