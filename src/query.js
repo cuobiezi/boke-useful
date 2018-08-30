@@ -2,9 +2,10 @@
  * @Author: cuobiezi 
  * @Date: 2018-08-30 11:12:34 
  * @Last Modified by: cuobiezi
- * @Last Modified time: 2018-08-30 11:52:30
+ * @Last Modified time: 2018-08-30 14:50:52
  */
 
+'use strict';
 
 /**
  *把对象转换成 get请求的query字符串
@@ -22,4 +23,4 @@ function query(_obj) {
   return _query.slice(0,-1);
 }
 
-console.log(query({a: 'a',b:'b',c:'c'}));
+export {query}

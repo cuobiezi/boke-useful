@@ -1,0 +1,11 @@
+{
+  "presets": [
+    ["env",{
+      "targets":{
+        "exclude": "/node_modules",
+        "ie": "9",
+        "browsers": ["last 2 versions","safari 7"]
+      }
+    }]
+  ]
+}
