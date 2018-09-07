@@ -2,7 +2,7 @@
  * @Author: cuobiezi 
  * @Date: 2018-08-30 13:40:02 
  * @Last Modified by: cuobiezi
- * @Last Modified time: 2018-08-30 14:50:57
+ * @Last Modified time: 2018-09-07 16:25:51
  */
 
 'use strict';
@@ -20,5 +20,22 @@ function getCookies() {
   }
   return _cookieObj
 }
+
+
+/**
+ *
+ *
+ * @param {string} name
+ * @param {string} value
+ * @param {num} time
+ */
+function setCookie(name,value,time)
+{ 
+    var strsec = getsec(time); 
+    var exp = new Date(); 
+    exp.setTime(exp.getTime() + strsec*1); 
+    document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString(); 
+} 
+
 
 export {getCookies}
