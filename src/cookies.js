@@ -2,7 +2,7 @@
  * @Author: cuobiezi 
  * @Date: 2018-08-30 13:40:02 
  * @Last Modified by: cuobiezi
- * @Last Modified time: 2018-09-07 16:25:51
+ * @Last Modified time: 2018-09-07 16:29:42
  */
 
 'use strict';
@@ -23,8 +23,8 @@ function getCookies() {
 
 
 /**
- *
- *
+ *设置 cookies
+ * 
  * @param {string} name
  * @param {string} value
  * @param {num} time
@@ -38,4 +38,20 @@ function setCookie(name,value,time)
 } 
 
 
-export {getCookies}
+
+/**
+ *  删除cookies
+ *
+ * @param {string} name
+ */
+function delCookie(name) 
+{ 
+    var exp = new Date(); 
+    exp.setTime(exp.getTime() - 1); 
+    var cval=getCookie(name); 
+    if(cval!=null) 
+        document.cookie= name + "="+cval+";expires="+exp.toGMTString(); 
+} 
+
+
+export {getCookies,setCookie,delCookie}
