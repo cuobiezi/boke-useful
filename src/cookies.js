@@ -2,7 +2,7 @@
  * @Author: cuobiezi 
  * @Date: 2018-08-30 13:40:02 
  * @Last Modified by: cuobiezi
- * @Last Modified time: 2018-09-07 16:29:42
+ * @Last Modified time: 2018-09-08 14:21:53
  */
 
 'use strict';
@@ -31,9 +31,11 @@ function getCookies() {
  */
 function setCookie(name,value,time)
 { 
-    var strsec = getsec(time); 
+    if(typeof name !== 'string' || typeof value!== 'string' || typeof time !== 'number' ){
+      throw new Error('参数类型不对，参数类型分别是string ，string，number');
+    }
     var exp = new Date(); 
-    exp.setTime(exp.getTime() + strsec*1); 
+    exp.setTime(exp.getTime() + time); 
     document.cookie = name + "="+ escape (value) + ";expires=" + exp.toGMTString(); 
 } 
 
