@@ -1,11 +1,11 @@
 # boke 前端的一些常用的方法的封装；
 
-- [1.安装&使用](##安装&使用)
-- [2.Api](##Api列表)
-  - [2.1 cookie处理](###cookie处理)
-  - [2.2 字符串处理](###字符串处理)
-  - [2.3 errPass](###errPass(data,empty[,usePosition]))
-  - [2.4 jsonErrPass](###jsonErrPass(data,items,hopeValue[,usePosition]))
+- [1.安装&使用](#安装&使用)
+- [2.Api](#Api列表)
+  - [2.1 cookie处理](#cookie处理)
+  - [2.2 字符串处理](#字符串处理)
+  - [2.3 errPass](#errPassdataemptyusePosition)
+  - [2.4 jsonErrPass](#jsonerrpassdataitemshopevalueuseposition)
 
 ## 安装&使用
 
