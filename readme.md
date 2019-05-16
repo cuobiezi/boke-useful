@@ -1,4 +1,4 @@
-# boke 前端的一些常用的方法的封装,[文档地址](https://github.com/cuobiezi/boke-useful#boke-%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E7%9A%84%E6%96%B9%E6%B3%95%E7%9A%84%E5%B0%81%E8%A3%85)；
+# boke 前端的一些常用的方法的封装,[文档&源码](https://github.com/cuobiezi/boke-useful#boke-%E5%89%8D%E7%AB%AF%E7%9A%84%E4%B8%80%E4%BA%9B%E5%B8%B8%E7%94%A8%E7%9A%84%E6%96%B9%E6%B3%95%E7%9A%84%E5%B0%81%E8%A3%85)；
 
 - [1.安装&使用](#安装使用)
 - [2.Api](#Api列表)
