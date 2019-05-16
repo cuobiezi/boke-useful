@@ -2,7 +2,7 @@
  * @Author: Conroy 
  * @Date: 2019-05-14 16:23:10 
  * @Last Modified by: Conroy
- * @Last Modified time: 2019-05-15 12:29:05
+ * @Last Modified time: 2019-05-16 15:45:12
  */
 
 
@@ -29,7 +29,7 @@ function macro(t,data){
 test('test jsonErrPass',t => {
   t.plan(3);
   var value = jsonErrPass({a:'1'},'a','');
-  var value2 = jsonErrPass({a: {b:{c: '3'}}},'a.b.c','');
+  var value2 = jsonErrPass({a: {b:{"zh-CN": '3'}}},'a.b.zh-CN','');
   var undefinedValue = jsonErrPass({},'a.b.c','9')
   t.is(value,'1');
   t.is(value2,'3');

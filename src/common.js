@@ -2,7 +2,7 @@
  * @Author: Conroy 
  * @Date: 2019-05-14 15:22:53 
  * @Last Modified by: Conroy
- * @Last Modified time: 2019-05-15 12:29:46
+ * @Last Modified time: 2019-05-16 15:24:57
  */
 
 'use strict';
@@ -16,7 +16,6 @@ import {errorLog} from './unit';
  *
  * @param {any} data                    元数据
  * @param {string} empty                期望的数据
- * @param {array} itemsName             json对象才有此参数，子元素的名称
  * @param {number|string} usePosition   报错的位置，如果没有则不报错,方便定位
  * @returns {data|emtpy}
  */
