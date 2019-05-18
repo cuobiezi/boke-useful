@@ -2,10 +2,9 @@
   "name": "boke-useful",
   "version": "0.1.2",
   "description": "boke useful js ",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "build": "npm-run-all build-main build-lib",
-    "build-main": "babel main.js -o index.js",
+    "build": "npm-run-all build-lib",
     "build-lib": "babel src -d lib",
     "test": "ava --verbose",
     "test:watch": "ava --watch --verbose"
