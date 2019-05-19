@@ -1,13 +1,15 @@
 /*
  * @Author: Conroy 
  * @Date: 2019-05-14 16:23:10 
- * @Last Modified by: Conroy
- * @Last Modified time: 2019-05-16 15:45:12
+ * @Last Modified by: cuobiezi
+ * @Last Modified time: 2019-05-19 12:40:49
  */
 
 
 import test from 'ava';
-import {errPass,jsonErrPass} from '../index';
+import {errPass,jsonErrPass} from '../lib/index' ;
+
+console.log(errPass)
 
 function macro(t,data){
   t.plan(1);

@@ -1,5 +1,6 @@
 import test from 'ava';
-import {query} from '../index';
+import {query} from '../lib/index';
+
 
 test('query',t=> {
     t.plan(1)

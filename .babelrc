@@ -1,8 +1,8 @@
 {
   "presets": [
-    ["env",{
+    ["@babel/env",{
       "targets":{
-        "exclude": "/node_modules",
+        // "exclude": "/node_modules",
         "ie": "9",
         "browsers": ["last 2 versions","safari 7"]
       }
