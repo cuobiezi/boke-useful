@@ -2,12 +2,12 @@
  * @Author:Leo
  * @Date: 2019-05-29 10:19:50
  * @Last Modified by: Conroy
- * @Last Modified time: 2019-05-31 16:07:12
+ * @Last Modified time: 2019-05-31 16:22:25
  * */
 
 
 /**
- *
+ *时间戳转换
  *
  * @param {number} timestamp    //时间戳
  * @returns
